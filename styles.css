@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/* this is CSS for 3 columns */
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: inline-block; 
+  float: left;
+  width: calc(100vw/4 - 2vw);
+  background-color: #ccc;
+  padding: 1vw;
+}
+
+#column2 {
+  background-color: #ccccff;
+}
+
+#column3 {
+  background-color: #fcc;
+}
+
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+li {
+  font-family: Georgia;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+#ingredients li { 
+  font-family: Arial;
+}
+
+#ingredients li span {
+  font-style: italic;
+  color: #999;
+}
+
+#equipment li:nth-child(3) {
+  color: red;
+}
+
+#mission li { 
+}
+
+/* from the demo on responsive design */
+@media (orientation: portrait) {
+  
+  div {
+    width: 100vw;
+  }
+
+    
